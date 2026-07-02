@@ -1,0 +1,24 @@
+site_name: Dispense del corso
+theme:
+  name: material
+  language: it
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - La macchina di Von Neumann: cap1.md
